@@ -1,0 +1,3 @@
+TV_SERIES = 1
+OVA = 2
+ONA = 3
