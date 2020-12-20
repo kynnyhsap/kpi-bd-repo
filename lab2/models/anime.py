@@ -1,5 +1,5 @@
 import datetime
-from lab2.models.model import Model
+from lab2.models.basic_model import BasicModel
 
 
 class AnimeType:
@@ -44,7 +44,7 @@ class Anime:
         return f"<Anime {self.id} '{self.name}'>"
 
 
-class AnimeModel(Model):
+class AnimeModel(BasicModel):
     def __init__(self):
         super().__init__()
 

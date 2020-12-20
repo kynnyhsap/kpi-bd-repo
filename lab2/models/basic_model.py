@@ -1,6 +1,6 @@
 from lab2.db import db
 
 
-class Model:
+class BasicModel:
     def __init__(self):
         self.db = db
